@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+	<meta charset="utf=8">
+	<title>User Profile</title>
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/mainindex.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="stylesheet" media='screen and (min-width: 320px) and (max-width: 1200px)' href='css/media_queries.css' />
+	
+	<script
+	type="text/javascript"
+	src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js">
+	</script>
+	
+	<script src="https://kit.fontawesome.com/965676e630.js" crossorigin="anonymous">
+	</script>
+	
+</head>
+<body>
+	<nav class="navbar">
+		<div class="account-nav-content">
+
+				<div class="nav-logo">
+					<a href="">
+						<img src="images/web-logo-name.png" class="index-logo">
+					</a>
+					<ul class="menu-list">
+						<div class="icon cancel-btn">
+							<i  class="fas fa-times"></i>
+						</div>
+						<!-- <li><a href="helpcenter.html" target="_blank">Help Center</a></li> -->
+						<li><a href="user-page.html"> Welcome,  &nbsp </a></li>
+						<span id="user" class="admin_name">< email-id ></Email-id></span>
+						<li><a href="tutorial.html"> User Manual</a></li>
+						<li><a href="user-profile.html" class="user-active"> User Profile</a></li>
+							<!-- <div class="sub-menu-list"> -->
+								<!-- <ul> -->
+									<!-- <li><a href="user-profile.html"> User profle</a></li> -->
+									<!-- <li><a href="index.html">Logout</a></li> -->
+								<!-- </ul> -->
+							<!-- </div> -->
+								<!-- <br> -->
+								<!-- <br> -->
+							<li>
+								<!-- <button class="logout">Logout <i class="" aria-hidden="true"></i></button> -->
+								<a href="index.html" class="logout">Logout</a>
+							</li>
+					</ul>
+						<div class="icon menu-btn">
+							<i  class="fas fa-bars"></i>
+						</div>	
+				</div>
+		</div>
+	</nav>
+ <div class="edit-form">  
+      <div class="edit-group1">
+        <b class="title">Personal Information</b><br>
+		<!-- <div class=""> -->
+		<!-- <div class=""> -->
+			  <div class="">
+				<b class="title">User Profile</b>
+			  </div>
+			  <span id="user-uid" style="display: none"></span>
+			  <br>      
+			  <div class="div1">
+				<h4>Full Name</h4>
+			  </div>    
+			  <div class="div2">    
+					<span id="fname">----</span> <span id="mname">----</span>  <span id="lname">----</span> 
+			  </div>
+			  <br>
+			  <div class="div1">
+				<h4>Address</h4>
+			  </div> 
+			  <div class="div2">    
+				<span id="address">----</span>
+		  	  </div>
+				<br>
+			  <div class="div1">
+					<h4>Contact</h4>
+				  </div> 
+			  <div class="div2">    
+					<span id="contact">----</span>
+			  </div>
+			  <br>
+			  <div class="div1">
+				<h4>Email</h4>
+			  </div> 
+			  <div class="div2">    
+				<span id="email">----</span> 
+			  </div>
+		  <br>
+		  <br>
+		  <br>
+		  <!-- <br> -->
+		  <button class="button-change-pass" onclick="change()">Change Password</button>
+		  <button class="button-update-prof" onclick="profile()">Update Profile</button>
+		  
+		<div class="update-form" id="update-form">
+          <div class="update-group">
+            <b class="title">Change Password</b><br><br>
+            <input class="input" id="email1" value="" style="display: none" type="text" placeholder="a"> <label class="label" ><b> </b></label> 
+            <div class="inputContainer">
+              <input class="input" id="oldpassword" value="" type="password" placeholder="a"> <label class="label" ><b>Current Password </b></label> 
+            </div>
+            <div class="inputContainer">
+              <input class="input" id="newpassword" type="password" placeholder="a"> <label class="label" ><b>New Password </b></label> 
+            </div>  
+			<div class="inputContainer">
+			<input class="input" id="connewpassword" type="password" placeholder="a"> <label class="label" ><b>Confirm New Password </b></label> 
+            </div>  
+            <br>
+			<div class="inputLeftButtonContainer">
+            <button class="button-change-update " type="button" onclick="updatepassword()" >Update</button>
+			</div>
+			<div class="inputRightButtonContainer">
+			<button class="button-change-cancel" type="button" onclick="cancel()">Cancel</button>
+			</div>
+          </div>
+        </div>
+		<div class="update-form1" id="update-form1">
+			<div class="update-group1">
+			  <b class="title">Profile </b><br><br>
+			  <div class="namediv">
+			  <div class="inputContainer">
+				<input class="input" id="firstname" value="" type="text" placeholder="a"> <label class="label" ><b>First Name </b></label>
+			  </div>
+			  <div class="inputContainer">
+				<input class="input" id="middlename" value="" type="text" placeholder="a"> <label class="label" ><b>Middle Name </b></label> 
+			  </div>
+			  <div class="inputContainer">
+				<input class="input" id="lastname" value="" type="text" placeholder="a"> <label class="label" ><b>Last Name </b></label> 
+			  </div>			  	
+			  </div>
+
+			  <div class="inputContainer">
+				<input class="input" id="add-ress" value="" type="text" placeholder="a"> <label class="label" ><b>Address </b></label> 
+			  </div>
+			  <div class="inputContainer">
+				<input class="input" id="contactno" value="" type="tel" placeholder="a" pattern="[6]{1}[3]{1}[9]{1}[0-9]{9}"  minlength="12" maxlength="12"> <label class="label" ><b>Contact </b></label> 
+			  </div>
+			  <div class="inputContainer">
+				<input class="input" id="emails" value="" type="text" placeholder="a"> <label class="label" ><b>Email </b></label> 
+			  </div>
+			  <div class="inputContainer">
+				<input class="input" id="oldpassword" type="password" placeholder="a"> <label class="label" ><b>Password </b></label> 
+			  </div>
+			  
+			  <button class="button-up-update" type="button" onclick="updateinfo()" >Update</button>
+			  <button class="button-up-cancel" type="button" onclick="cancel()">Cancel</button>
+			</div>
+		</div>
+	</div>
+</div>
+	<!--  Sticky Navbar -->
+	<script type="text/javascript">
+		const body = document.querySelector("body");
+		const navbar = document.querySelector(".navbar");
+		const menu = document.querySelector(".menu-list");
+		const menuBtn = document.querySelector(".menu-btn");
+		const cancelBtn = document.querySelector(".cancel-btn");
+		menuBtn.onclick = ()=>{
+			menu.classList.add("active");
+			menuBtn.classList.add("hide");
+			body.classList.add("disabledScroll");
+		}
+		cancelBtn.onclick = ()=>{
+			menu.classList.remove("active");
+			menuBtn.classList.remove("hide");
+			body.classList.remove("disabledScroll");
+		}
+			window.onscroll = ()=>{
+			this.scrollY > 40 ? navbar.classList.add("") : navbar.classList.remove("");
+		} 
+</script> 
+
+			
+
+		  		
+			  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+		  	
+			  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+			  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+			  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+			  
+			  <script src="jsMarketing/firebaseConfig.js"></script>
+			  <script src="jsMarketing/userProfile.js"></script>
+</body>
+</html>

@@ -1,0 +1,1712 @@
+/*---	Extra small devices (phones, 600px and down)		--------------------------------------------------*/
+@media only screen and (max-width:599px) {
+
+/*------------------------------	Index page media	-----------------------------------------------*/	
+		.landing-img{
+			display:none;
+		}
+		body.disabledScroll{
+			overflow:hidden;
+		}
+		.navbar .index-logo{
+			width:50%;
+			margin-top:15px;
+		}
+		.icon.menu-btn{
+			padding-top:13px;
+		}
+		.navbar .menu-list{
+			position:fixed;
+			top:0;
+			left:-100%;
+			height:100vh;
+			width:100%;
+			max-width:400px;
+			/* background:#00008B; */
+			background:#0061ff;
+			display:block;
+			padding:40px 0;
+			text-align:center;
+			transition:all 0.5s ease;
+		}
+		.navbar .menu-list.active{
+			left:0%;
+		}
+		.navbar .menu-list li{
+			margin-top:45px;
+		}
+		.navbar .meni-list li a{
+			font-size:23px;
+		}
+		.icon{
+			display:block;
+		}
+		.icon.hide{
+			display:none;
+		}
+		.learn-more{
+			position:relative;
+			width:50%;
+		}
+		.learn-more-content{
+			height:100vh;
+		}
+		.services-content{
+			height:90vh;
+		}
+		.contact-info{
+			height:100vh;
+		}
+		.feedback-info{
+			height:100vh;
+		}
+
+		
+/*------------------------------	Home page media		-----------------------------------------------*/		
+		.nav-banner .img-int{
+			top:50%;
+			left:0%;
+		}
+		.nav-banner h4{
+			font-size:25px;
+			top:0;
+			left:70%;
+			text-align:left;
+		}
+		.learn-more{
+			width:60%;
+			padding:0;
+			/* left:20%; */
+			left:50%;
+			font-size:14px;
+		}
+		
+/*------------------------------	Learn more page media	-------------------------------------------*/			
+		.prev,.next{
+			margin-left:1.1%;
+			padding:5px;
+			margin-right:1.1%;
+			top:110%;
+		}
+
+		.mySlides {
+			width: 100%;
+		}
+		 .card {
+			height:auto;
+		}
+		.title-card {
+			padding-top:60px;
+		}
+		 .title{
+			padding-top:10%;
+			font-size:25px;
+		} 
+		.container {
+			top:50px;
+			height:200px;
+				padding: 0 2px;
+		}
+
+		.h2-index {
+			font-size:20px;
+		}
+		.h3-index{
+			font-size:15px;
+		}
+		.p-index{
+			font-size:14px;
+		}
+
+		.dot{
+			display:none;
+		}
+		.container .fa-codepen, .container .fa-building-o,.container .fa-align-justify,
+		.container .fa-shield, .container .fa-industry, .container .fa-file-movie-o{
+			font-size: 30px;
+			width:60px;
+			height:60px;
+		}
+		
+/*------------------------------	MOBHASS Feature page media	---------------------------------------*/
+		.feature-column {
+			width: 100%;
+			padding-top:0px;
+			padding:0px;
+		}
+		.feature-container {
+			/* height:275px; */
+			height:290px;
+			width:100%;
+			margin-left:0;
+			margin-right:0;
+			margin-bottom:10px;
+			padding: 0px 20px;
+		}
+		.title-h3{
+			font-size:25px;
+		}
+		.title-p{
+			text-align:justify;
+			font-size:15px;
+			left:5%;
+			padding-right:50px;
+		}
+		.h3-feature{
+			font-size:15px;
+		}
+		.p-feature{
+			font-size:14px;
+		}
+		
+/*------------------------------	Under MOBHASS Feauture page media	-------------------------------*/
+		.under-feature-column {
+			width: 100%;
+			padding-bottom:20px;
+		}
+		.under-feature-container {
+			/* height:300px; */
+			height:500px;
+			width:100%;
+			margin-left:0;
+			margin-right:0;
+			margin-bottom:10px;
+			padding: 0px 20px;
+		}		
+		.under-feature-container1 {
+			/* height:300px; */
+			height:300px;
+			width:100%;
+			margin-left:0;
+			margin-right:0;
+			margin-bottom:10px;
+			padding: 0px 20px;
+		}
+		.under-feature-container-image{
+			height:300px;
+			width:100%;
+			margin-left:0;
+			margin-right:0;
+			margin-bottom:10px;
+			padding: 0px 20px;
+		}
+		  
+		.title-under-feature{
+			font-size:25px;
+		}
+		.title-under-feature-p{
+			text-align:justify; 
+			font-size:14px;
+		}
+		.title-under-feature-content{
+			font-size:25px;
+		}
+		.under-feature-container h2, .under-feature-container1 h2{
+			font-size:20px;
+		}
+		
+		.under-feature-p{
+			font-size:14px;
+		}
+		
+/*------------------------------	Services page media	-----------------------------------------------*/
+	.servicesprev,.servicesnext{
+			margin-left:1.1%;
+			padding:5px;
+			margin-right:1.1%;
+			/* top:110%; */
+			top:55%;
+		}
+
+		.servicesSlides {
+			width: 100%;
+		}
+		.services-card {
+			height:auto;
+		}
+		.services-title-card {
+			padding-top:60px;
+		}
+		 .services-title{
+			padding-top:10%;
+			font-size:25px;
+		} 
+		.services-container {
+			top:50px;
+			height:200px;
+			padding: 0 2px;
+		}
+
+		.services-h2-index {
+			font-size:20px;
+		}
+		.services-p-index{
+			/* font-size:14px; */
+		}
+
+		.servicesdot{
+			display:none;
+		}
+		
+		.services-img{
+			padding-left:0px;
+			width:100%;
+			/* margin:20px 50px;  */
+			margin:0; 
+			height:40vh;
+		}
+/*------------------------------	About page media	-----------------------------------------------*/
+
+		.about-content-container-info {
+			width: 100%;
+			/* height:500px; */
+			height:80%;
+		}
+		.about-content-column {
+			width: 100%;
+		}
+		.about-content-container-image {
+			/* padding: 0px 0px; */
+			/* margin-top:15%; */
+			/* margin-left:0; */
+			/* height:250px; */
+			/* width:100%; */
+			display:none;
+		}
+		.about-h3{
+			/* padding-top:20px;  */
+			padding-top:40px; 
+			font-size:25px;
+		}
+		.about-mission-h3{
+			padding-top:20px; 
+			font-size:25px;
+		}
+		.about-content-row p{
+			font-size:14px;
+			text-align:justify
+		}
+		.about-content-column1 p {
+			font-size:14px;
+			text-align:justify
+		}
+		
+/*------------------------------	Contact page media	-----------------------------------------------*/
+		.contact-info{
+			/* margin-top:10%; */
+		}
+		.con-group-wrapper{
+			width:90%;
+			margin-left:5%;
+			height:50%;
+		}
+		.contact-int{
+			display:none;
+		}
+		.con-box-right{
+			padding-top:20%;
+		}
+		.con-group-wrapper label{
+			width: 25%;
+			font-size:14px;
+		}	
+		.contact-input {
+			width: 60%;
+			font-size:14px;
+		} 
+
+		.contact-area {
+			font-size:14px;
+		}
+		
+		.contact-button-send{
+			width:60%;
+			font-size:14px;
+		}
+		
+/*------------------------------	Want To Know More? page media	-----------------------------------*/
+		.know-more{
+			height:300px;
+		}
+		.know-more-h3{
+			font-size:30px;
+		}
+		.goto-help-center{
+			width:40%;
+			height:45px;
+			font-size:14px;
+		}
+
+/*------------------------------	APK Download page media		---------------------------------------*/
+		.qrtest{
+			top:60%;
+			left:35.5%;
+		}
+		.apk-download{
+			height:60px;
+			width:200px;
+			top:83%;
+			left:28%;
+			font-size: 20px;
+
+		}
+		.version{
+			top:93%;
+			left:42%;
+			position:fixed;
+			font-size:12px;
+			color:#1F75FE;
+		}
+		.apk-title{
+			position:none;
+			top:30%;
+			color:#1F75FE;
+			left:0%;
+			font-size:15px;
+		}
+
+/*------------------------------	Privacy Policy page media	---------------------------------------*/
+		.container{
+			top:15%;
+		}
+		.header-container{
+			padding: 0% 10% 3% 10%;
+		}
+		.inner-container{
+			padding: 0 10% 3% 10%;
+		}
+		ul.a{
+			font-size:14px;
+		}
+		.header-h1,.inner-h1,.inner-h3{
+			font-size:20px;
+		}
+		.header-p,.inner-p{
+			font-size:14px;
+		}	
+/*------------------------------	Terms an Condition page media	------------------------------------*/
+		.Terms-container{
+			top:15%;
+		}
+		.Terms-header-container{
+			padding: 0% 10% 5% 10%;
+		}
+		.Terms-inner-container{
+			padding: 0% 10% 3% 10%;
+		}
+		ul.b-Terms{
+			font-size:14px;
+		}
+
+		.Terms-header-h1,.Terms-inner-h1,.Terms-inner-h2{
+			padding: 0 0 2% 0;
+			font-size:25px;
+		}
+		.Terms-inner-p1{
+			font-size:14px;
+		}
+		.Terms-header-p,.Terms-inner-p{
+			font-size:14px;
+		}
+		.Terms-inner-b{
+			font-size:14px;
+		}
+		.Terms-inner-u{
+			font-size:14px;
+		}
+/*------------------------------	Login page media	-----------------------------------------------*/
+		.log-column{
+			width: 100%;
+		}
+		.log-box-right{
+			width: 80%;
+			top: 10%;
+			left: 10%;
+			right: 10%;
+		}
+		.log-column-img{
+			display:none;
+		}
+		.log-group-wrapper .log-text{
+			font-size:16px;
+		}
+
+		.log-group-wrapper .log-password{
+			font-size:16px;
+		}
+
+		.log-group-fp{
+			left:54%;
+			/* top:53.5%; */
+			top:57%;
+			font-size:14px;
+		}
+		.log-group-wrapper span{
+			left:80%;
+			/* top:45%; */
+			top:51%;
+		}
+
+/*------------------------------	Help Center page media	-----------------------------------------------*/
+		.help-center-row{
+			display:inline;
+		}
+		.help-center-col{
+			width:100%;
+		}
+		.search-box{
+		  width: 80%;
+		}
+		.help-center-wrapper{
+	height:50px;
+						margin-bottom:0%;
+			padding-bottom:0%;
+ }
+		.help-center-container{
+			height:48%;
+						margin-bottom:0%;
+			padding-bottom:0%;
+		}
+		.help-center-container .help-center-faq{
+			position:relative;
+			height:220vh;
+			top:63%;
+			padding-left:25px;
+			margin-bottom:0%;
+			padding-bottom:0%;
+		}
+		.help-center-faq .help-center-row{
+			margin-top:-5%;
+			margin-bottom:0%;
+			padding-bottom:0%;
+		}
+		.help-center-faq .help-center-column {
+			float: center;
+			width: 100%;
+			margin-bottom:300px;
+			padding-bottom:0%;
+		}
+		.help-center-faq .help-center-container {
+			height:350px;
+			width:80%;
+			padding-left:10%;
+			padding-right:10%;
+			margin-left:2%;
+			margin-right:2%;
+		}
+		.help-center-faq .p-help-center{
+			text-align:left;
+			font-size:14px;
+			color:#808080;
+		}
+		.help-center-container a{
+			bottom:10px;
+		}
+		.class-span{
+			display:block;
+			text-align:right;
+		}
+/*------------------------------	FAQ's page media	-----------------------------------------------*/
+		.help-center-faq{
+			left:0%;
+			width:100%;
+			height:470%;
+		}
+		.back-logo img, .faq-account-nav-content{
+			display:none;
+		}
+		.accordion-container h1{
+			color:#1F75FE;
+			font-size: 30px; 
+		}
+		.faq_Question {
+			font-size: 14px; 
+		}
+		.faq_Holder{
+			/* font-size: 18px;   */
+			font-size: 25px;  
+		}
+		.faq_Answer {
+			/* font-size: 16px; */
+			font-size: 14px;
+		}
+/*------------------------------	Footer page media	-----------------------------------------------*/
+		.footer-row{
+			padding-left:5%;
+		}
+		.footer-container{
+			max-width:1170px;
+			margin:auto;
+			height:80vh;
+		}
+		.footer-container-bottom{
+			max-width:1170px;
+			padding-top:30px;
+			padding-bottom:10px;
+			margin:auto;
+		}
+		.footer h6:before{
+			width:28%;
+		}
+		.footer h6:after{
+			width:28%;
+		}
+		.footer-col h4{
+			/* font-size:20px; */
+			font-size:15px;
+			text-align:left;
+		}
+		.footer-col ul li a{
+			font-size:15px;
+		}
+		.footer-container-bottom .footer-logo{
+			height:40px;
+		}
+		.footer-col{
+			margin-top:20px;
+			width:50%;
+		}
+}
+/*------------------------------	Footer-Legal page media	-----------------------------------------------*/
+		.footer-legal{
+			display:none;
+		}
+		.footer-index{
+			display:none;
+		}
+
+		/* .footer-legal{ */
+			/* height:25vh; */
+		/* } */
+		/* .footer-logo{ */
+			/* margin-top:40px; */
+			/* margin-left:10px; */
+			/* margin-right:10px; */
+			/* height:25px; */
+		/* } */
+		/* .footer-col{ */
+			/* width:30%; */
+			/* margin:5px; */
+		/* } */
+		/* .footer-col a,span{ */
+			/* margin-left:0px; */
+			/* font-size:15px; */
+		/* } */
+		/* .footer-legal-span{ */
+			/* display:block; */
+		/* } */
+/*------------------------------	FEEDBACK page media	-----------------------------------------------*/
+		.feedback-box-right{
+			/* padding:0; */
+			/* margin:0; */
+	padding-top:20%:
+		}
+		.feedback-group-wrapper form{
+			width:100%;
+			/* margin-left:5%; */
+			margin-left:0%;
+			/* height:50%; */
+			height:500px;
+			padding-bottom:2%;
+		}
+		.feedback-h1{
+	padding-top:15%;
+}
+		.feedback-group-wrapper label{
+			width: 25%;
+			font-size:14px;
+
+		}	
+		.feedback-input {
+			width: 60%;
+			font-size:14px;
+		} 
+
+		.feedback-area {
+			font-size:14px;
+		}
+		
+		.feedback-button-send{
+			width:60%;
+			font-size:14px;
+		}
+/*--------------------------------------------------	TUTORIALS	*/
+		.tutorial-slideshow-container {
+			max-width: 100%;
+			position: relative;
+			margin: auto;
+		}
+		.tutorial-mySlides {
+			width: 100%;
+			}
+			
+		/* Next & previous buttons */
+		.tutorial-prev, .tutorial-next {
+			margin-left:4.1%;
+			padding:5px;
+			margin-right:4.1%;
+			top:55%;
+		}
+
+		/* Position the "next button" to the right */
+		.tutorial-next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+		}
+		.tutorial-title-card {
+			padding-top:60px;
+		}
+		.tutorial-card {
+			padding-left:0px;
+			padding-right: 10px;
+				height:auto;
+		}
+		 .tutorial-title{
+			padding-top:10%;
+			font-size:25px;
+		} 
+
+		.tutorial-h2-index {
+			font-size:20px;
+		}
+		.tutorial-p-text-index {
+			font-size:14px;
+			/* margin:100px 0px;  */
+			margin:20px 0px; 
+			/* padding:0px 55px; */
+			padding:0px 0px;
+		}
+
+		.tutorial-container img{
+				margin-top:-8px;
+			/* height:45px; */
+			height:10px;
+			/* width:45px; */
+			width:10px;
+			padding:10px 0px;
+		}
+		.tutorial-dot {
+			display:none;
+		}
+
+		.tutorial-container .tutorial-column {
+		  float:left;
+		  width: 100%;
+		  padding: 0px;
+		}
+/*------------------------------	UPDATE User Profile page media	-----------------------------------------------*/
+		      .edit-group1{
+			width: 100%;
+			margin-left: 0px;
+			height:100%;
+			padding-top:100px;
+			overflow:hidden;
+      }
+		.update-group1{
+			width: 100%;
+			margin-left: 0px;
+			/* height:100%; */
+				margin-top: -200px;
+			/* padding-top:100px; */
+			
+		 }
+		.update-group{
+			width: 100%;
+			margin-left: 0px;
+			margin-top: -200px;
+			padding-bottom:0;
+			margin-bottom:0;
+			/* background-color:violet; */
+		}
+		.button-change-pass {
+			width:160px;
+			padding: 6px 6px;
+			margin-left: 0%;
+			margin-right:0%;
+			margin-bottom:5%;
+		}
+	   .button-update-prof {
+			width:160px;
+			padding: 6px 6px;
+			margin-left: 5%;
+			margin-right:0%;
+			margin-bottom:5%;
+		}
+		.button-change-update {
+			width:140px;
+			padding: 6px 6px;
+			margin-top: 3%;
+			margin-left: 0%;
+			margin-right:5%;
+			margin-bottom:0%;
+		}
+		.button-change-cancel{
+			width:140px;
+			padding: 6px 6px;
+			margin-top: 3%;
+			margin-left: 0%;
+			margin-right:5%;
+			margin-bottom:0%;
+		}
+  
+	   .button-up-update {
+		   	width:140px;
+			padding: 6px 6px;
+			margin-top: 3%;
+			margin-left: 0%;
+			margin-right: 5%;
+		}
+		.button-up-cancel {
+			width:140px;
+			padding: 6px 6px;
+			margin-top: 3%;
+			margin-left:0%;
+			margin-right: 5%;
+		}
+  
+		
+/*---	Small devices (portrait tablets and large phones, 600px and up)		--------------------------------------------------*/
+@media only screen and (min-width: 600px)  {
+	
+/*------------------------------	Index page media	-----------------------------------------------*/	
+		.landing-img{
+			display:none;
+		}
+		body.disabledScroll{
+			overflow:hidden;
+		}
+		.navbar .index-logo{
+			width:50%;
+			margin-top:15px;
+		}
+		.icon.menu-btn{
+			padding-top:13px;
+		}
+		.navbar .menu-list{
+			position:fixed;
+			top:0;
+			left:-100%;
+			height:100vh;
+			width:100%;
+			max-width:400px;
+			/* background:#00008B; */
+			background:#0061ff;
+			display:block;
+			padding:40px 0;
+			text-align:center;
+			transition:all 0.5s ease;
+		}
+		.navbar .menu-list.active{
+			left:0%;
+		}
+		.navbar .menu-list li{
+			margin-top:45px;
+		}
+		.navbar .meni-list li a{
+			font-size:23px;
+		}
+		.icon{
+			display:block;
+		}
+		.icon.hide{
+			display:none;
+		}
+		.learn-more{
+			position:relative;
+			width:50%;
+		}
+		.learn-more-content{
+			height:100vh;
+		}
+		.services-content{
+			height:100vh;
+		}
+		.contact-info{
+			height:100vh;
+		}
+		.feedback-info{
+			height:100vh;
+		}
+
+		
+/*------------------------------	Home page media		-----------------------------------------------*/		
+		.nav-banner h1{
+			font-size:25px;
+		}
+		.nav-banner h4{
+			font-size:15px;
+		}
+		.learn-more{
+			width:60%;
+			left:20%;
+			font-size:14px;
+		}
+		
+/*------------------------------	Learn more page media	-------------------------------------------*/			
+		.prev,.next{
+			margin-left:1.1%;
+			padding:5px;
+			margin-right:1.1%;
+			top:110%;
+		}
+
+		.mySlides {
+			width: 100%;
+		}
+		 .card {
+			height:auto;
+		}
+		.title-card {
+			padding-top:60px;
+		}
+		 .title{
+			padding-top:10%;
+			font-size:25px;
+		} 
+		.container {
+			top:50px;
+			height:200px;
+				padding: 0 2px;
+		}
+
+		.h2-index {
+			font-size:20px;
+		}
+		.h3-index{
+			font-size:15px;
+		}
+		.p-index{
+			font-size:14px;
+		}
+
+		.dot{
+			display:none;
+		}
+		.container .fa-codepen, .container .fa-building-o,.container .fa-align-justify,
+		.container .fa-shield, .container .fa-industry, .container .fa-file-movie-o{
+			font-size: 30px;
+			width:60px;
+			height:60px;
+		}
+		
+/*------------------------------	MOBHASS Feature page media	---------------------------------------*/
+		.feature-column {
+			width: 100%;
+			padding-top:0px;
+		}
+		.feature-container {
+			/* height:275px; */
+			height:290px;
+		}
+		.title-h3{
+			font-size:25px;
+		}
+		.title-p{
+			text-align:justify;
+			font-size:15px;
+			left:5%;
+			padding-right:50px;
+		}
+		.h3-feature{
+			font-size:15px;
+		}
+		.p-feature{
+			font-size:14px;
+		}
+		
+/*------------------------------	Under MOBHASS Feauture page media	-------------------------------*/
+		.under-feature-column {
+			width: 100%;
+			padding-bottom:20px;
+		}
+		.under-feature-container {
+			/* height:300px; */
+			height:500px;
+		}		
+		.under-feature-container1 {
+			/* height:300px; */
+			height:300px;
+		}
+		.under-feature-container-image{
+			height:300px;
+		}
+		  
+		.title-under-feature{
+			font-size:25px;
+		}
+		.title-under-feature-p{
+			text-align:justify; 
+			font-size:14px;
+		}
+		.title-under-feature-content{
+			font-size:25px;
+		}
+		.under-feature-container h2, .under-feature-container1 h2{
+			font-size:20px;
+		}
+		
+		.under-feature-p{
+			font-size:14px;
+		}
+		
+/*------------------------------	Services page media	-----------------------------------------------*/
+	.servicesprev,.servicesnext{
+			margin-left:1.1%;
+			padding:5px;
+			margin-right:1.1%;
+			/* top:110%; */
+			top:55%;
+		}
+
+		.servicesSlides {
+			width: 100%;
+		}
+		.services-card {
+			height:auto;
+		}
+		.services-title-card {
+			padding-top:60px;
+		}
+		 .services-title{
+			/* padding-top:10%; */
+			padding-top:40%;
+			font-size:25px;
+		} 
+		.services-container {
+			top:50px;
+			height:200px;
+			padding: 0 2px;
+		}
+
+		.services-h2-index {
+			font-size:20px;
+				padding-top:40px;
+				padding-bottom:40px;
+		}
+		.services-p-index{
+			/* font-size:14px; */
+		}
+
+		.servicesdot{
+			display:none;
+		}
+		
+		.services-img{
+			padding-left:0px;
+			width:100%;
+			/* margin:20px 50px;  */
+			margin:0; 
+			height:40vh;
+		}
+/*------------------------------	About page media	-----------------------------------------------*/
+
+		.about-content-container-info {
+			width: 100%;
+			height:500px;
+		}
+		.about-content-column {
+			width: 100%;
+		}
+		.about-content-container-image {
+			/* padding: 0px 0px; */
+			/* margin-top:15%; */
+			/* margin-left:0; */
+			/* height:250px; */
+			/* width:100%; */
+			display:none;
+		}
+		.about-h3{
+			padding-top:20px; 
+			font-size:25px;
+		}
+		.about-mission-h3{
+			padding-top:20px; 
+			font-size:25px;
+		}
+		.about-content-row p{
+			font-size:14px;
+			text-align:justify
+		}
+		.about-content-column1 p {
+			font-size:14px;
+			text-align:justify
+		}
+		
+/*------------------------------	Contact page media	-----------------------------------------------*/
+		.contact-info{
+			/* margin-top:10%; */
+		}
+		.con-group-wrapper{
+			width:90%;
+			margin-left:5%;
+			height:50%;
+		}
+		.contact-int{
+			display:none;
+		}
+		.con-box-right{
+			padding-top:20%;
+		}
+		.con-group-wrapper label{
+			width: 25%;
+			font-size:14px;
+		}	
+		.contact-input {
+			width: 60%;
+			font-size:14px;
+		} 
+
+		.contact-area {
+			font-size:14px;
+		}
+		
+		.contact-button-send{
+			width:60%;
+			font-size:14px;
+		}
+		
+/*------------------------------	Want To Know More? page media	-----------------------------------*/
+		.know-more{
+			height:300px;
+		}
+		.know-more-h3{
+			font-size:30px;
+		}
+		.goto-help-center{
+			width:40%;
+			height:45px;
+			font-size:14px;
+		}
+
+/*------------------------------	APK Download page media		---------------------------------------*/
+		.qrtest{
+			top:60%;
+			left:35.5%;
+		}
+		.apk-download{
+			height:60px;
+			width:200px;
+			top:83%;
+			left:28%;
+			font-size: 20px;
+
+		}
+		.version{
+			top:93%;
+			left:42%;
+			position:fixed;
+			font-size:12px;
+			color:#1F75FE;
+		}
+		.apk-title{
+			position:none;
+			top:30%;
+			color:#1F75FE;
+			left:0%;
+			font-size:15px;
+		}
+
+/*------------------------------	Privacy Policy page media	---------------------------------------*/
+		.container{
+			top:15%;
+		}
+		.header-container{
+			padding: 0% 10% 3% 10%;
+		}
+		.inner-container{
+			padding: 0 10% 3% 10%;
+		}
+		ul.a{
+			font-size:14px;
+		}
+		.header-h1,.inner-h1,.inner-h3{
+			font-size:20px;
+		}
+		.header-p,.inner-p{
+			font-size:14px;
+		}	
+/*------------------------------	Terms an Condition page media	------------------------------------*/
+		.Terms-container{
+			top:15%;
+		}
+		.Terms-header-container{
+			padding: 0% 10% 5% 10%;
+		}
+		.Terms-inner-container{
+			padding: 0% 10% 3% 10%;
+		}
+		ul.b-Terms{
+			font-size:14px;
+		}
+
+		.Terms-header-h1,.Terms-inner-h1,.Terms-inner-h2{
+			padding: 0 0 2% 0;
+			font-size:25px;
+		}
+		.Terms-inner-p1{
+			font-size:14px;
+		}
+		.Terms-header-p,.Terms-inner-p{
+			font-size:14px;
+		}
+		.Terms-inner-b{
+			font-size:14px;
+		}
+		.Terms-inner-u{
+			font-size:14px;
+		}
+/*------------------------------	Login page media	-----------------------------------------------*/
+		.log-column{
+			width: 100%;
+		}
+		.log-box-right{
+			width: 80%;
+			top: 10%;
+			left: 10%;
+			right: 10%;
+		}
+		.log-column-img{
+			display:none;
+		}
+		.log-group-wrapper .log-text{
+			font-size:16px;
+		}
+
+		.log-group-wrapper .log-password{
+			font-size:16px;
+		}
+
+		.log-group-fp{
+			left:54%;
+			top:53.5%;
+			font-size:14px;
+		}
+		.log-group-wrapper span{
+			left:80%;
+			top:45%;
+		}
+
+/*------------------------------	Help Center page media	-----------------------------------------------*/
+		.help-center-row{
+			display:inline;
+		}
+		.help-center-col{
+			width:100%;
+		}
+		.search-box{
+		  width: 80%;
+		}
+		.help-center-container{
+			height:48%;
+		}
+		.help-center-faq{
+			/* height:440%; */
+			padding-left:35px;
+		}
+		.help-center-faq .help-center-row{
+			margin-top:-5%;
+			padding-bottom:5%;
+		}
+		.help-center-faq .help-center-column {
+			float: center;
+			width: 100%;
+			margin-bottom:300px;
+		}
+		.help-center-faq .help-center-container {
+			height:350px;
+			width:80%;
+			padding-left:10%;
+			padding-right:10%;
+			margin-left:2%;
+			margin-right:2%;
+		}
+		.help-center-faq .p-help-center{
+			text-align:left;
+			font-size:14px;
+			color:#808080;
+		}
+		.help-center-container a{
+			bottom:10px;
+		}
+		.class-span{
+			display:block;
+			text-align:right;
+		}
+/*------------------------------	FAQ's page media	-----------------------------------------------*/
+		.help-center-faq{
+			left:0%;
+			width:100%;
+			height:470%;
+		}
+		.back-logo img, .faq-account-nav-content{
+			display:none;
+		}
+		.accordion-container h1{
+			color:#1F75FE;
+			font-size: 30px; 
+		}
+		.faq_Question {
+			font-size: 14px; 
+		}
+		.faq_Holder{
+			/* font-size: 18px;   */
+			font-size: 25px;  
+		}
+		.faq_Answer {
+			/* font-size: 16px; */
+			font-size: 14px;
+		}
+/*------------------------------	Footer page media	-----------------------------------------------*/
+		.footer-row{
+			padding-left:5%;
+		}
+		.footer-container{
+			max-width:1170px;
+			margin:auto;
+			height:80vh;
+		}
+		.footer-container-bottom{
+			max-width:1170px;
+			padding-top:30px;
+			padding-bottom:10px;
+			margin:auto;
+		}
+		.footer h6:before{
+			width:28%;
+		}
+		.footer h6:after{
+			width:28%;
+		}
+		.footer-col h4{
+			/* font-size:20px; */
+			font-size:15px;
+			text-align:left;
+		}
+		.footer-col ul li a{
+			font-size:15px;
+		}
+		.footer-container-bottom .footer-logo{
+			height:40px;
+		}
+		.footer-col{
+			margin-top:20px;
+			width:50%;
+		}
+}
+/*------------------------------	Footer-Legal page media	-----------------------------------------------*/
+		.footer-legal{
+			display:none;
+		}
+		.footer-index{
+			display:none;
+		}
+
+		/* .footer-legal{ */
+			/* height:25vh; */
+		/* } */
+		/* .footer-logo{ */
+			/* margin-top:40px; */
+			/* margin-left:10px; */
+			/* margin-right:10px; */
+			/* height:25px; */
+		/* } */
+		/* .footer-col{ */
+			/* width:30%; */
+			/* margin:5px; */
+		/* } */
+		/* .footer-col a,span{ */
+			/* margin-left:0px; */
+			/* font-size:15px; */
+		/* } */
+		/* .footer-legal-span{ */
+			/* display:block; */
+		/* } */
+/*------------------------------	FEEDBACK page media	-----------------------------------------------*/
+		.feedback-info{
+			/* margin-top:10%; */
+		}
+		.feedback-group-wrapper{
+			width:90%;
+			margin-left:5%;
+			height:50%;
+		}
+		.feedback-int{
+			display:none;
+		}
+		.feedback-box-right{
+			padding-top:20%;
+		}
+		.feedback-group-wrapper label{
+			width: 25%;
+			font-size:14px;
+		}	
+		.feedback-input {
+			width: 60%;
+			font-size:14px;
+		} 
+
+		.feedback-area {
+			font-size:14px;
+		}
+		
+		.feedback-button-send{
+			width:60%;
+			font-size:14px;
+		}
+/*--------------------------------------------------	TUTORIALS	*/
+		/* .tutorial-content{ */
+	/* padding:0px 0px; */
+/* } */
+		.tutorial-slideshow-container {
+			max-width: 100%;
+			position: relative;
+			margin: auto;
+		}
+		.tutorial-mySlides {
+			width: 100%;
+			}
+			
+		/* Next & previous buttons */
+		.tutorial-prev, .tutorial-next {
+			margin-left:4.1%;
+			padding:5px;
+			margin-right:4.1%;
+			top:55%;
+		}
+
+		/* Position the "next button" to the right */
+		.tutorial-next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+		}
+		.tutorial-title-card {
+			padding-top:60px;
+		}
+		.tutorial-card {
+			padding:10px 90px;
+			height:auto;
+		}
+		 .tutorial-title{
+			padding-top:10%;
+			font-size:25px;
+		} 
+
+		.tutorial-h2-index {
+			font-size:20px;
+		}
+		.tutorial-p-text-index {
+			font-size:14px;
+			/* margin:100px 0px;  */
+			margin:20px 0px; 
+			/* padding:0px 55px; */
+			padding:0px 0px;
+		}
+
+		.tutorial-container img{
+				margin-top:-8px;
+			/* height:45px; */
+			height:10px;
+			/* width:45px; */
+			width:10px;
+		}
+		.tutorial-dot {
+			display:none;
+		}
+
+		.tutorial-container .tutorial-column {
+		  float:left;
+		  width: 100%;
+		  padding: 0px;
+		}
+/*------------------------------	UPDATE User Profile page media	-----------------------------------------------*/
+		.update-group1{
+			width: 100%;
+			margin-left: 0px;
+			height:100%;
+			padding-top:100px;
+			overflow:hidden;
+		 }
+		.update-group{
+			width: 100%;
+			margin-left: 0px;
+			height:100%;
+			padding-top:100px;
+			overflow:hidden;
+		}
+
+
+
+/*---	Medium devices (landscape tablets, 768px and up)		--------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+/*------------------------------	Index page media	-----------------------------------------------*/
+		body.disabledScroll{
+			overflow:hidden;
+		}
+		.navbar .index-logo{
+			width:40%;
+		}
+		.icon.menu-btn{
+			padding-top:13px;
+		}
+		.navbar .menu-list{
+			position:fixed;
+			top:0;
+			left:-100%;
+			height:100vh;
+			width:100%;
+			max-width:400px;
+			background:#00008B;
+			display:block;
+			padding:40px 0;
+			text-align:center;
+			transition:all 0.5s ease;
+		}
+		.navbar .menu-list.active{
+			left:0%;
+		}
+		.navbar .menu-list li{
+			margin-top:45px;
+		}
+		.navbar .meni-list li a{
+			font-size:23px;
+		}
+		.icon{
+			display:block;
+		}
+		.icon.hide{
+			display:none;
+		}
+		.learn-more{
+			position:relative;
+			width:50%;
+		}
+		
+
+/*------------------------------	Home page media		-----------------------------------------------*/
+		.nav-banner h1{
+			font-size:30px;
+		}
+		.nav-banner h4{
+			font-size:20px;
+		}
+		.learn-more{
+			width:45%;
+			left:12%;
+			font-size:15px;
+		}	
+		
+/*------------------------------	Learn more page media	-------------------------------------------*/
+		.prev, .next {
+			top: 70%;
+		}
+
+		.mySlides {
+			width: 60%;
+		}
+		 .card {
+			height:auto;
+		}
+		.title-card {
+			padding-top:60px;
+		}
+		 .title{
+			padding-top:10%;
+			font-size:30px;
+		} 
+		.container {
+			top:50px;
+			height:200px;
+		}
+
+		.h2-index {
+			font-size:25px;
+		}
+		.h3-index{
+			font-size:20px;
+		}
+		.p-index{
+			font-size:15px;
+		}
+
+		.dot{
+			display:none;
+		}
+		.container .fa-codepen, .container .fa-building-o,.container .fa-align-justify,
+		.container .fa-shield, .container .fa-industry, .container .fa-file-movie-o{
+			font-size: 30px;
+			width:60px;
+			height:60px;
+		}	
+		
+/*------------------------------	MOBHASS Feauture page media	---------------------------------------*/
+		.feature-column {
+		/* width: 100%; */
+		width: 50%;
+		}
+		.feature-container {
+			height:300px;
+		}
+		.title-h3{
+			font-size:30px;
+		}
+		.title-p{
+			text-align:justify;
+			font-size:20px;
+			left:5%;
+			padding-right:50px;
+		}
+		.h3-feature{
+			font-size:20px;
+		}
+		.p-feature{
+			font-size:15px;
+		}
+		
+/*------------------------------	Under MOBHASS Feauture page media	-------------------------------*/
+		.under-feature-column {
+			width: 50%;
+		}
+		.under-feature-container {
+			height:300px;
+		}
+		.under-feature-container-image{
+			height:300px;
+		}
+		  
+		.title-under-feature{
+			font-size:30px;
+		}
+		.title-under-feature-p{
+			text-align:justify; 
+			font-size:15px;
+		}
+		.title-under-feature-content{
+			font-size:30px;
+		}
+		.under-feature-container h2{
+			font-size:25px;
+		}
+		.under-feature-p{
+			font-size:15px;
+		}
+		
+/*------------------------------	About page media	-----------------------------------------------*/
+		.about-content-container-info {
+			width: 100%;
+			height:500px;
+		}
+		.about-content-column {
+			width: 50%;
+		}
+		.about-content-container-image {
+			padding: 0px 0px;
+			margin-top:15%;
+			margin-left:0;
+			height:250px;
+			width:100%;
+		}
+		.about-h3{
+			padding-top:20px; 
+			font-size:25px;
+		}
+		.about-mission-h3{
+			padding-top:20px; 
+			font-size:25px;
+		}
+		.about-content-row p{
+			font-size:12px;
+			text-align:justify
+		}
+		.about-content-column1 p {
+			font-size:12px;
+			text-align:justify
+		}
+
+/*------------------------------	Contact page media	-----------------------------------------------*/
+		.con-group-wrapper{
+			width:45%;
+			margin-left:52%;
+		}
+		.contact-int{
+			margin-left:50px;
+			width:70%;
+		}
+		.contact-int h1{
+			font-size:30px;
+		}
+		.contact-int h4{
+			font-size:15px;
+			width:50%;
+		}		
+		.contact-int-h4{
+			font-size:15px;
+			width:70%;
+			padding-bottom:130px;
+		}
+		.con-col-h3{
+			font-size:20px;
+		}
+/* CONTACT FORM */
+		.con-group-wrapper label{
+			width: 20%;
+			font-size:15px;
+		}	
+		.contact-input {
+			width: 60.1%;
+			font-size:15px;
+		} 
+
+		.contact-area {
+			font-size:15px;
+		}
+		.contact-button-send{
+			width:40%;
+			font-size:15px;
+		}
+	
+/*------------------------------	Want To Know More? page media	-----------------------------------*/
+		.know-more-h3{
+			font-size:30px;
+		}
+		.goto-help-center{
+			width:20%;
+			height:45px;
+			font-size:15px;
+		}
+
+/*------------------------------	APK Download page media		---------------------------------------*/
+/*------------------------------	APK Download page media	-------------------------------------------*/
+/*------------------------------	Privacy Policy page media	---------------------------------------*/
+/*------------------------------	Terms and Condition page media	-----------------------------------*/
+/*------------------------------	Footer page media	-----------------------------------------------*/
+/*------------------------------	Footer-Legal page media	-------------------------------------------*/
+
+}
+
+/*---	Large devices (laptops/desktops, 992px and up)		--------------------------------------------------*/
+@media only screen and (min-width: 992px) {
+/*------------------------------	Index page media	-----------------------------------------------*/	
+
+/*------------------------------	Home page media		-----------------------------------------------*/	
+		
+/*------------------------------	Learn more page media	-------------------------------------------*/	
+		
+/*------------------------------	MOBHASS Feauture page media	---------------------------------------*/
+		
+/*------------------------------	Under MOBHASS Feauture page media	-------------------------------*/
+		
+/*------------------------------	About page media	-----------------------------------------------*/
+
+/*------------------------------	Contact page media	-----------------------------------------------*/
+	
+/*------------------------------	Want To Know More? page media	-----------------------------------*/
+
+/*------------------------------	Privacy Policy page media	---------------------------------------*/
+
+/*------------------------------	Terms and Condition page media	-----------------------------------*/
+
+/*------------------------------	Footer page media	-----------------------------------------------*/
+
+/*------------------------------	Footer-Legal page media	-------------------------------------------*/
+
+}

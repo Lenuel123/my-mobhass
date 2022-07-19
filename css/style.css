@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+html{
+	scroll-behavior:smooth;
+	transition:0.5s;
+}
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family:'poppins', sans-serif;
+}
+
+body{
+	font-family:none;
+}
+
+
+/*------------------------------>	FAQ PAGE	*/
+.faq-banner{
+	margin:auto;
+	padding:0px 30px;
+
+ }
+.faq-wrapper{
+	position:fixed;	
+	height:80px;
+	width:100%;
+	background:#00008B;
+	/* background: rgb(0,97,255); */
+	/* background: radial-gradient(circle, rgba(0,97,255,1) 64%, rgba(0,0,139,1) 100%); */
+	z-index:999;
+ }
+.container{
+	font-family:'poppins', sans-serif;
+	position:absolute;
+	width:100%;
+	height:auto;
+	top:13%;
+	/* background: rgb(0,97,255); */
+	/* background: linear-gradient(180deg, rgba(0,97,255,1) 10%, rgba(0,0,139,1) 60%); */
+	background:#FFFFFF;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+ .h1{
+	position:fixed;
+	margin-top:20px;
+	font-size:25px;
+	width:50%;
+	left:25%;
+	color:#FFFFFF;
+	margin-bottom:20px;
+}
+.accordion-container{
+	margin-top:50px;
+	margin-bottom:50px;
+	background:#FFFFFF;
+}
+.faq_Title{
+	width:80%;
+	font-size:15px; 
+	background: rgb(0,97,255);
+	background: linear-gradient(355deg, rgba(0,97,255,1) 0%, rgba(0,0,139,1) 76%);
+/* 	background: rgb(255,192,203); */
+	/* background: linear-gradient(355deg, rgba(255,192,203,1) 0%, rgba(246,70,114,1) 76%);  */
+	color: #FFFFFF;
+	text-align: left;
+	border-radius:10px;
+	margin-bottom:10px;
+	padding:30px;
+	box-shadow: 5px 2px 5px rgba(0,0,0,0.2);
+	border: 2px solid blue;
+	cursor:pointer;
+}
+.fa-long-arrow-right{
+	font-size:500px; 
+	float:right;
+}
+/* .active, .faq_Title:hover{ */
+	/* background: rgb(255,192,203); */
+	/* background: linear-gradient(355deg, rgba(255,192,203,1) 0%, rgba(246,70,114,1) 76%);   */
+/* }  */
+.faq_Title .fa-minus{
+	display:none;
+}
+.accordion-item:target .faq_Title .fa-plus{
+	display:none;
+}
+
+.accordion-item:target .faq_Title .fa-minus{
+	display:block;
+}
+
+.faq_Question {
+	width:95%;
+	padding:20px;
+	font-size: 15px; 
+	font-weight: bold;
+	color: blue;
+	background:#FFFFFF;
+	text-align: left;
+	margin-bottom:20px;
+	box-shadow: 0px 0px 2px 2px blue;
+	border: 2px solid white;
+}
+.active .container input[type=button]:focus{
+	border-radius:10px;
+	margin-bottom:10px;
+	border: 2px solid white;
+	border-radius:10px;  
+	background:white;
+	color: white;
+}
+.faq_Holder{
+	width: 80%;
+	padding: 16px 18px;
+	display: none;
+	overflow: hidden;
+	margin-top: -15px;
+	margin-bottom: 10px;
+	background-color: #EEEDDE;
+	border-bottom-left-radius: 10px; 
+	border-bottom-right-radius: 10px;
+	font-size: 18px;  
+}
+.faq_Answer {
+	width: 92%;
+	padding: 16px 18px;
+	display: none;
+	overflow: hidden;
+	margin-bottom:18px;
+	margin-top:-18px;
+	color:#696969;
+	/* background-color: #F7F7F7; */
+	background:#FFFFFF;
+	font-size: 16px;
+	box-shadow: 0px 2px 5px blue;
+}
+.active .faq_Answer:hover{
+	background-color: white;
+	color: black;
+	border-radius:10px;
+	margin-bottom:10px;
+	border: 2px solid white;
+}
+
+
+/*------------------------------>	FAQ Go back BUTTON	*/
+.faq-goback{
+	position:absolute;
+	width:100px;
+	height:100px;
+	background-color:none;
+	padding-top:15px;
+	text-decoration:none;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:30px;
+	transition:.3s;
+	cursor:pointer;
+}
+ .faq-goback:hover{
+	color:#F64672;
+}
+
+/*------------------------------>	PRIVACY POLICY PAGE	*/
+.Privacy-banner{
+	margin:auto;
+	padding:0px 30px;
+ }
+.Privacy-wrapper{
+	position:fixed;	
+	height:80px;
+	width:100%;
+	/* background:#1F75FE; */
+	z-index:999;
+	/* background:#00008B; */
+	/* background: rgb(0,97,255); */
+	/* background: radial-gradient(circle, rgba(0,97,255,1) 64%, rgba(0,0,139,1) 100%); */
+}
+.container{
+	font-family:'poppins', sans-serif;
+	position:absolute;
+	width:100%;
+	height:auto;
+	top:10%;
+	color:#808080;
+	/* background: rgb(0,97,255); */
+	/* background: linear-gradient(180deg, rgba(0,97,255,1) 10%, rgba(0,0,139,1) 60%); */
+	/* background:#FFFFFF; */
+	/* background-repeat: no-repeat; */
+	/* background-attachment: fixed; */
+}
+.header-container{
+		padding: 0% 20% 3% 20%;
+		text-align:center;
+}
+.inner-container{
+		padding: 0 20% 3% 20%;
+		text-align:left;
+}
+ul.a{
+    list-style-position: inside;
+	/* margin-bottom:5px; */
+}
+
+.inner-b{
+	color:#1F75FE;
+	text-align:left;;
+}
+
+
+.header-h1,.inner-h1,.inner-h3{
+		padding: 0 0 2% 0;
+		color:#1F75FE;
+}
+.header-p,.inner-p{
+		padding: 0 0% 3% 0%;
+		text-align:left;
+}
+/*------------------------------>	PRIVACY POLICY Go back BUTTON	*/
+.Privacy-goback{
+	position:absolute;
+	width:100px;
+	height:100px;
+	background-color:none;
+	padding-top:15px;
+	text-decoration:none;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:30px;
+	transition:.3s;
+	cursor:pointer;
+}
+ .Privacy-goback:hover{
+	color:#F64672;
+}
+/*------------------------------>	TERMS AND CONDITION PAGE	*/
+.Terms-banner{
+	margin:auto;
+	padding:0px 30px;
+
+ }
+.Terms-wrapper{
+	position:fixed;	
+	height:80px;
+	width:100%;
+	background:#1F75FE;
+	z-index:999;
+	/* background:#00008B; */
+	/* background: rgb(0,97,255); */
+	/* background: radial-gradient(circle, rgba(0,97,255,1) 64%, rgba(0,0,139,1) 100%); */
+}
+.Terms-container{
+	font-family:'poppins', sans-serif;
+	position:absolute;
+	width:100%;
+	height:auto;
+	top:15%;
+	color:#808080;
+	/* background: rgb(0,97,255); */
+	/* background: linear-gradient(180deg, rgba(0,97,255,1) 10%, rgba(0,0,139,1) 60%); */
+	/* background:#FFFFFF; */
+	/* background-repeat: no-repeat; */
+	/* background-attachment: fixed; */
+}
+.Terms-header-container{
+		padding: 0% 20% 5% 20%;
+		text-align:center;
+}
+.Terms-inner-container{
+		padding: 0 20% 3% 20%;
+		text-align:left;
+}
+ul.b-Terms{
+    list-style-position: inside;
+	color:#808080;
+}
+.Terms-header-h1,.Terms-inner-h1,.Terms-inner-h2{
+		padding: 0 0 2% 0;
+		color:#1F75FE;
+}
+.Terms-header-p,.Terms-inner-p{
+		/* margin-bottom:5px; */
+		padding: 0 0% 3% 0%;
+}
+.Terms-inner-b{
+	color:#1F75FE;
+	text-align:left;
+}
+.Terms-inner-u{
+	color:#1F75FE;
+	text-align:left;
+}
+/*------------------------------>	TERMS AND CONDITION Go back BUTTON	*/
+.Terms-goback{
+	position:absolute;
+	width:100px;
+	height:100px;
+	background-color:none;
+	padding-top:15px;
+	text-decoration:none;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:30px;
+	transition:.3s;
+	cursor:pointer;
+}
+ .Terms-goback:hover{
+	color:#F64672;
+}
+
+/*------------------------------>	FOOTER-LEGAL		*/
+.footer-legal{
+	width:100%;
+	height:15vh;
+	background:#1F75FE;
+}
+.footer-logo-legal{
+	margin-top:10px;
+	height:50px;
+}
+.footer-legal h5{
+	color:#FFFFFF;
+	font-weight:300;
+}
+.footer-row-legal{
+	display:flex;
+	flex-wrap:wrap;
+}
+.footer-col-legal{
+	padding-top:20px;
+	width:33%;
+}
+.footer-col-legal a{
+	text-decoration:none;
+	color:#FFFFFF;
+	margin-left:30px;
+	font-size:14px;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+	<meta charset="utf=8">
+	<title>Login</title>
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/mainindex.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="stylesheet" media='screen and (min-width: 320px) and (max-width: 1200px)' href='css/media_queries.css' />
+	
+	<script
+	type="text/javascript"
+	src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js">
+	</script>
+	
+	<script src="https://kit.fontawesome.com/965676e630.js" crossorigin="anonymous">
+	</script>
+	
+</head>
+<body>
+	
+	<div class="log-container">
+		<!-- <div class="log-wrapper">  -->
+				<!-- <a class="log-goback" href="index.html" id=""> <i class="fa fa-chevron-left" aria-hidden="true"></i></a> -->
+		<!-- </div> -->
+		
+			<div class="log-box-right">
+			
+					 <div class="log-row">
+							<div class="log-column">
+								<div class="under-feature-container">
+								
+						<center>
+							<!-- <div class="log-logo-con"> -->
+								<!-- <img src="images/web-logo-name.png" class="log-logo" height="55px"> -->
+							<!-- </div> -->
+							<br>
+							
+							<h2><b>Login</b></h2>
+							<h5>Please fill in your credentials to login.</h5><br>
+						</center>
+						<br>
+							
+	
+						<form onsubmit="login()" id="loginForm" >
+							<div class="log-group-wrapper">
+								<center><small><span id="error" style="color: red"></span></small></center>
+																
+									<label>Username</label>
+										<!-- <input type="text" id="email" placeholder="" class="log-text"> -->
+										<input type="text" id="email" data-key='Email' name="Email" class="log-text" placeholder="" 
+								pattern=".+@gmail\.com"  required>
+							<br>						
+									<label>Password</label>
+										<input type="password" id="password" placeholder="" class="log-password">
+
+										<span>
+											<i class="fa fa-eye" aria-hidden="true" id="eye" onclick="toggle()"></i>
+										</span>
+							
+							<br>
+										<input type="checkbox" class="log-remember" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Stay signed in</label>																						
+							<br>
+							<br>
+							<br>
+										<div class="log-group-fp">
+											<a href="#" onclick="forgotPas()"><b>Forget password?</b></a>
+										</div>
+										
+							
+										<div class="log-group">
+										<a href="user-page.html">
+											<center><input  type="submit" onclick="save" value="Login" class="log-login"></center>
+										</a>
+										</div>											
+							
+							</div>	
+							</div>
+						</form>
+
+
+							</div>
+							</div>	
+							
+							<div class="log-column">
+								<div class="log-column-img">
+									<img src="images/web-login-img.png">
+								</div>
+							</div>
+					</div>	
+			</div>
+	</div>
+	
+<script>
+	var state = "false";
+	function toggle(){
+	if(state){
+		document.getElementById("password").setAttribute("type", "password");
+		document.getElementById("eye").style.color='#7a797e';
+		state = false;		
+	}
+	else{
+		document.getElementById("password").setAttribute("type", "text");
+		document.getElementById("eye").style.color='#5887ef';
+		state = true;	
+	
+	}
+	}
+	
+
+
+
+</script>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+	https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+
+
+
+<script src="jsMarketing/firebaseConfig.js"></script>
+<script src="jsMarketing/login.js"></script>
+</body>
+</html>

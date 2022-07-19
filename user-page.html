@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+	<meta charset="utf=8">
+	<title>User Account</title>
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/mainindex.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="stylesheet" media='screen and (min-width: 320px) and (max-width: 1200px)' href='css/media_queries.css' />
+	
+	<script
+	type="text/javascript"
+	src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js">
+	</script>
+	
+	<script src="https://kit.fontawesome.com/965676e630.js" crossorigin="anonymous">
+	</script>
+	
+</head>
+<body>
+	<nav class="navbar">
+		<div class="account-nav-content">
+
+				<div class="nav-logo">
+					<a href="">
+						<img src="images/web-logo-name.png" class="index-logo">
+					</a>
+					<ul class="menu-list">
+						<div class="icon cancel-btn">
+							<i  class="fas fa-times"></i>
+						</div>
+						<!-- <li><a href="helpcenter.html" target="_blank">Help Center</a></li> -->
+
+						<li><a href="user-page.html" class="user-active">  Welcome, &nbsp </a></li>
+
+						<span id="user" class="admin_name">< email-id ></Email-id></span>
+
+						<li><a href="tutorial.html"> User Manual</a></li>
+						<li><a href="user-profile.html"> User Profile</a></li>
+							<!-- <div class="sub-menu-list"> -->
+								<!-- <ul> -->
+									<!-- <li><a href="user-profile.html"> User profle</a></li> -->
+									<!-- <li><a href="index.html">Logout</a></li> -->
+								
+								<!-- </ul> -->
+							<!-- </div> -->
+								<!-- <br> -->
+								<!-- <br> -->
+						
+							<li>
+								<!-- <button class="logout">Logout <i class="" aria-hidden="true"></i></button> -->
+								<a href="# " onclick="logout()" class="logout">Logout</a>
+							</li>
+
+					</ul>
+						<div class="icon menu-btn">
+							<i  class="fas fa-bars"></i>
+						</div>
+						
+				</div>
+			</div>
+	</nav>
+	
+	
+	<div class="apk-download-content">
+	<center>		
+		<div class="apk-bg">
+		<label class="apk-title">
+		
+			<h1>Mobile Based Home-Automation Security System</h1>
+				<br>
+							<h4>Perfect Choice for your Home Automation.</h4>
+							<h4>Your Protection Starts Here.</h4>
+			</label>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1200px-HD_transparent_picture.png" class="qrtest" height="130px" width="130px" id="img">	
+
+				<a href="apk/MOBHASS.apk" download="Mobhass.apk">
+
+					<!-- <span class="apk-download">Download <i class="fa fa-download" aria-hidden="true"></i></span>  -->
+					<!-- <button </button> -->
+				</a>
+			<br>
+			<br>
+			<br>
+			<br>
+				<label class="version">Version 1.0</label>
+		</div>
+	</center>
+	</div>
+	<!--  Sticky Navbar -->
+	<script type="text/javascript">
+		const body = document.querySelector("body");
+		const navbar = document.querySelector(".navbar");
+		const menu = document.querySelector(".menu-list");
+		const menuBtn = document.querySelector(".menu-btn");
+		const cancelBtn = document.querySelector(".cancel-btn");
+		menuBtn.onclick = ()=>{
+			menu.classList.add("active");
+			menuBtn.classList.add("hide");
+			body.classList.add("disabledScroll");
+		}
+		cancelBtn.onclick = ()=>{
+			menu.classList.remove("active");
+			menuBtn.classList.remove("hide");
+			body.classList.remove("disabledScroll");
+		}
+			window.onscroll = ()=>{
+			this.scrollY > 40 ? navbar.classList.add("") : navbar.classList.remove("");
+		} 
+</script> 
+
+
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-storage.js"></script>
+
+<script src="jsMarketing/firebaseConfig.js"></script>
+<script src="jsMarketing/welcomeUser.js"></script>
+
+
+</body>
+</html>

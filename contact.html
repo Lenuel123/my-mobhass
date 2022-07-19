@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+	<meta charset="utf=8">
+	<title>Contact</title>
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/mainstyle.css">
+	<link rel="stylesheet" href="css/mainindex.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="stylesheet" media='screen and (min-width: 320px) and (max-width: 1200px)' href='css/media_queries.css'/>
+	
+	<script
+	type="text/javascript"
+	src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js">
+	</script>
+	
+	<script src="https://kit.fontawesome.com/965676e630.js" crossorigin="anonymous">
+	</script>
+	
+</head>
+<body>
+	<!-- <nav class="navbar"> -->
+		<!-- <div class="account-nav-content"> -->
+
+				<!-- <div class="back-logo"> -->
+					<!-- <a href="index.html"> -->
+						<!-- <img src="https://img.icons8.com/material-rounded/96/FFFFFF/left.png"/> -->
+					<!-- </a> -->
+				<!-- </div> -->
+			<!-- </div> -->
+	<!-- </nav> -->
+			
+	<div class="contact-content">
+				<section class="contact-info" id="contact-info">
+				
+						<div class="contact-int">
+						
+								<h1>GOT A QUESTION?</h1>
+							<br>
+								<h4>We&#39re here to help and answer any question you might have.</h4>
+								<h4 class="contact-int-h4">We look forward to hearing from you.</h4>
+
+							<div class="con-row">
+								<div class="con-col">
+								<h3 class="con-col-h3">Contact Information</h3>
+								
+								</div>
+							
+								<div class="con-col">
+									
+								</div>
+							</div>
+							
+							<br>
+							
+							<div class="con-row">
+								<div class="con-col">
+									<span><i class="fa fa-map-marker" aria-hidden="true"></i><span>&nbsp&nbsp&nbsp&nbsp&nbsp <span>Quezon City St., Corner QC Ave. Quezon City, Metro Manila</span>
+									
+								</div>
+									
+									<br>
+									
+								<div class="con-col">
+									<span><i class="fa fa-phone-square" aria-hidden="true"></i><span>&nbsp&nbsp&nbsp&nbsp <span>(02) 8104-4596</span>
+								</div>
+								
+									<br>
+								<div class="con-col">
+									<span><i class="fa fa-envelope-o" aria-hidden="true"></i><span>&nbsp&nbsp&nbsp&nbsp <span>mobhass@gmail.com</span>
+								</div>
+							</div>
+							
+							
+							
+						</div>
+						
+						<div class="con-box-right">
+
+							<div class="con-group-wrapper">
+								<form action="#">
+									<label for="Fullname">Fullname: </label><span id="error-name"></span>
+									<input type="text" id="Fullname" name="Fullname" class="contact-input" placeholder="Enter your name here">
+	
+									<label for="Email">Email: </label><span id="error-email"></span>
+									<input type="email" id="Email"  name="Email" class="contact-input" placeholder="example@gmail.com">
+									<!-- gmail format pattern=".+@gmail\.com" -->
+									
+	
+									<label for="Contact">Contact no: </label><span id="error-contact"></span>
+									<input type="tel" id="Contact" name="Contact" class="contact-input" placeholder="09XXXXXXXXX or +639XXXXXXXXX">
+	
+									<label for="Message">Feedback: </label><span id="error-message"></span>
+								
+									<textarea id="Message" name="Message" 	type='text'    class="contact-input " style="height:200px;" placeholder="Write your message here"></textarea>
+	
+								<center><input type="button" value="Send Message" id="addmessage" class="contact-button-send"></center>
+								</form>
+							</div>
+						</div>
+
+				</section>
+			<br>
+			<br>		
+		</div>
+		<!-- <footer class="footer-legal"> -->
+					<!-- <center> -->
+						<!-- <div class="footer-row"> -->
+							<!-- <div class="footer-col"><br> -->
+								<!-- <h5>Copyright &#169; 2022. All Rights Reserved.</h5> -->
+							<!-- </div> -->
+							
+							<!-- <div class="footer-col"> -->
+								<!-- <img src="images/web-logo-name.png" class="footer-logo">	 -->
+							<!-- </div> -->
+							
+							<!-- <div class="footer-col"><br> -->
+								<!-- <ul> -->
+									<!-- <a href="privacy.html" target="_blank">Privacy Policy </a> -->
+									<!-- <a href="terms.html" target="_blank"><span class="footer-legal-span">Terms and Conditions</span></a> -->
+								<!-- </u> -->
+							<!-- </div> -->
+						<!-- </div> -->
+					<!-- </center> -->
+		<!-- </footer> -->
+
+	<!-- <a class="goto" href="#" id="myBtn"> <i class="fa fa-chevron-up" aria-hidden="true"></i> </a> -->
+					
+</div>						
+
+		
+
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+ <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+	<script src="jsMarketing/contact.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+	<meta charset="utf=8">
+	<title>FAQ's Profile Settings</title>
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/mainindex.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="stylesheet" media='screen and (min-width: 320px) and (max-width: 1200px)' href='css/media_queries.css' />
+	
+	<script
+	type="text/javascript"
+	src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js">
+	</script>
+	
+	<script src="https://kit.fontawesome.com/965676e630.js" crossorigin="anonymous">
+	</script>
+	
+</head>
+<body>
+	<nav class="navbar">
+		<div class="faq-account-nav-content">
+
+				<div class="back-logo">
+					<a href="helpcenter.html">
+						<img src="https://img.icons8.com/material-rounded/96/FFFFFF/left.png"/>
+					</a>
+					
+					<!-- <ul class="menu-list"> -->
+						<!-- <div class="icon cancel-btn"> -->
+							<!-- <i  class="fas fa-times"></i> -->
+						<!-- </div> -->
+							
+
+					<!-- </ul> -->
+						<!-- <div class="icon menu-btn"> -->
+							<!-- <i  class="fas fa-bars"></i> -->
+						<!-- </div> -->
+				</div>
+			</div>
+	</nav>
+
+<center>
+				<!-- ACCORDION 1  -->
+				<div class="accordion-container">
+								<h1>Profile settings</h1>
+								<br>
+			
+							<button type="button" class="faq_Question">  What will I do if I forget my email address?</button>
+							  <div class="faq_Answer">
+								<p>
+									- Contact the administrator or send a message to an administrator on the contact page of the website.
+								</p>
+							  </div>
+							<button type="button" class="faq_Question">  How do I update my account details?</button>
+							  <div class="faq_Answer">
+								<p>
+									- After login you can go to the "User-profile" and change available information. If the information is not editable you can refer to the question above.
+								</p>
+							  </div>
+							<button type="button" class="faq_Question">  How to access my data?</button>
+							  <div class="faq_Answer">
+								<p>
+									- Using the mobile application, go to settings to see personal data. 
+								</p>
+							  </div>							
+							  <button type="button" class="faq_Question">  How to change my password?</button>
+							  <div class="faq_Answer">
+								<p>
+									- Using the mobile application, go to settings, and find change password.
+								</p>
+							  </div>
+							  <button type="button" class="faq_Question">  How can I protect my account from a security breach?</button>
+							  <div class="faq_Answer">
+								<p>
+									- To prevent a data breach, you need to secure your account by putting in a strong password and authentication verification.<br>
+									- Avoid giving your email and password to others.<br>
+									- Always track/check your account activities.<br>
+									- Change your password if necessary.
+								</p>
+							  </div>
+				 
+						 
+				</div>
+				
+		<footer class="footer-index">
+					<center>
+						<div class="footer-row-index">
+							<div class="footer-col-index"><br>
+								<h5>Copyright &#169; 2022. All Rights Reserved.</h5>
+							</div>
+							
+							<div class="footer-col-index">
+								<img src="images/web-logo-name.png" class="footer-logo-index">	
+							</div>
+							
+							<div class="footer-col-index"><br>
+								<ul>
+									<a href="privacy.html" target="_blank">Privacy Policy </a>
+									<!-- <a href="terms.html" target="_blank"><span class="footer-legal-span">Terms and Conditions</span></a> -->
+									<a href="terms.html" target="_blank">Terms and Conditions</a>
+								</u>
+							</div>
+						</div>
+					</center>
+		</footer>
+</div>
+				
+</center>
+
+
+
+
+
+<!-- 	Accordion -->
+	<script>
+		var coll = document.getElementsByClassName("faq_Title");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var Holder = this.nextElementSibling;
+			if (Holder.style.display === "block") {
+			  Holder.style.display = "none";
+			} else {
+			  Holder.style.display = "block";
+			}
+		  });
+		}
+
+		var coll = document.getElementsByClassName("faq_Question");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var Answer = this.nextElementSibling;
+			if (Answer.style.display === "block") {
+			 Answer.style.display = "none";
+			} else {
+			  Answer.style.display = "block";
+			}
+		  });
+		}
+	</script>	
+
+
+</body>
+</html>

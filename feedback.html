@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+	<meta charset="utf=8">
+	<title>Mobile Based Home-Automation Security System</title>
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/mainindex.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="stylesheet" media='screen and (min-width: 320px) and (max-width: 1200px)' href='css/media_queries.css'/>
+	
+	<script
+	type="text/javascript"
+	src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js">
+	</script>
+	
+	<script src="https://kit.fontawesome.com/965676e630.js" crossorigin="anonymous">
+	</script>
+	
+</head>
+<body>
+	
+	
+
+						<div class="feedback-content">
+							<section class="feedback-info" id="feedback-info">
+
+								<center>
+									<h1 class="feedback-h1">Feedback</h1>
+								</center>
+
+							<div class="feedback-group-wrapper" >
+								<form action="#">
+								<label for="Fullname">Fullname: </label><span id="error-name"></span>
+								<input type="text" id="Fullname" name="Fullname" class="feedback-input" placeholder="Enter your name here">
+
+								<label for="Email">Email: </label><span id="error-email"></span>
+								<input type="email" id="Email"  name="Email" class="feedback-input" placeholder="example@gmail.com">
+								<!-- gmail format pattern=".+@gmail\.com" -->
+								
+
+								<label for="Contact">Contact no: </label><span id="error-contact"></span>
+								<input type="tel" id="Contact" name="Contact" class="feedback-input" placeholder="09XXXXXXXXX or +639XXXXXXXXX">
+
+								<label for="Message">Feedback: </label><span id="error-message"></span>
+							
+								<textarea id="Message" name="Message" 	type='text'    class="feedback-input " style="height:200px;" placeholder="Write your message here"></textarea>
+
+							<center><input type="button" value="Send Message" id="addmessage" class="feedback-button-send"></center>
+							</form>
+							</div>
+						
+					</section>
+					</div>
+			
+		
+
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+ <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+	<script src="jsMarketing/feedback.js"></script>
+	
+</body>
+</html> 

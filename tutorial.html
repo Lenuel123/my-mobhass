@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+	<meta charset="utf=8">
+	<title>User Account</title>
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/mainindex.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="stylesheet" media='screen and (min-width: 320px) and (max-width: 1200px)' href='css/media_queries.css' />
+	
+	<script
+	type="text/javascript"
+	src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js">
+	</script>
+	
+	<script src="https://kit.fontawesome.com/965676e630.js" crossorigin="anonymous">
+	</script>
+	
+</head>
+<body>
+	<nav class="navbar">
+		<div class="account-nav-content">
+
+				<div class="nav-logo">
+					<a href="">
+						<img src="images/web-logo-name.png" class="index-logo">
+					</a>
+					<ul class="menu-list">
+						<div class="icon cancel-btn">
+							<i  class="fas fa-times"></i>
+						</div>
+						<!-- <li><a href="helpcenter.html" target="_blank">Help Center</a></li> -->
+
+						<li><a href="user-page.html"> Welcome, &nbsp </a></li>
+
+						<span id="user" class="admin_name">< email-id ></Email-id></span>
+						
+						<li><a href="tutorial.html" class="user-active"> User Manual</a></li>
+						<li><a href="user-profile.html"> User Profile</a></li>
+							<!-- <div class="sub-menu-list"> -->
+								<!-- <ul> -->
+									<!-- <li><a href="user-profile.html"> User profle</a></li> -->
+									<!-- <li><a href="index.html">Logout</a></li> -->
+								
+								<!-- </ul> -->
+							<!-- </div> -->
+								<!-- <br> -->
+								<!-- <br> -->
+						
+							<li>
+								<!-- <button class="logout">Logout <i class="" aria-hidden="true"></i></button> -->
+								<a href="# " onclick="logout()" class="logout">Logout</a>
+							</li>
+
+					</ul>
+						<div class="icon menu-btn">
+							<i  class="fas fa-bars"></i>
+						</div>
+						
+				</div>
+			</div>
+	</nav>
+
+			<div class="tutorial-content">
+				<section class="tutorial-info" id="learn-more-info">
+					<div class="tutorial-slideshow-container">
+					<div class="tutorial-title-card">		
+						<h2 class="tutorial-title">
+						<!-- Perfect Choice for your Home Automation<br> -->
+						</h2>
+					</div>	
+						<a class="tutorial-prev" onclick="plusSlides(-1)">&#10094;</a>
+						 <a class="tutorial-next" onclick="plusSlides(1)">&#10095;</a>
+					
+						<div class="tutorial-mySlides fade">
+							  <div class="tutorial-container">
+								<div class="tutorial-card">
+								<center>
+								<!-- <div class="tutorial-imgico"> -->
+									<!-- <img src="https://img.icons8.com/material-outlined/96/FFFFFF/compare-git.png"/> -->
+								<!-- </div> -->
+									<!-- <h2 class="tutorial-h2-index">Easy Integration</h2> -->
+								<div class="tutorial-row">
+									<div class="tutorial-column">
+										<p class="tutorial-p-index">
+										<img src="images/1.png" style="height:400px; width:200px;" class="tutorial-1">
+										</p>
+									</div>
+									<div class="tutorial-column">
+										<p class="tutorial-p-text-index">
+										1. Open the customized MOBHASS Application on your mobile.
+										</p>
+									</div>
+								</div>
+							   </center>
+							  </div>
+							  </div>
+						  </div>	
+
+						  <div class="tutorial-mySlides fade">
+							  <div class="tutorial-container">
+								<div class="tutorial-card">
+								<center>
+								<!-- <div class="tutorial-imgico"> -->
+									<!-- <img src="https://img.icons8.com/material-outlined/96/FFFFFF/compare-git.png"/> -->
+								<!-- </div> -->
+									<!-- <h2 class="tutorial-h2-index">Easy Integration</h2> -->
+								<div class="tutorial-row">
+									<div class="tutorial-column">
+										<p class="tutorial-p-index">
+										<img src="images/2.png" style="height:400px; width:200px;" class="tutorial-1">
+										</p>
+									</div>
+									<div class="tutorial-column">
+										<p class="tutorial-p-text-index">
+										2. Read User Agreement. Click "Agree".
+										</p>
+									</div>
+								</div>
+							   </center>
+							  </div>
+							  </div>
+						  </div>
+						  
+						  <div class="tutorial-mySlides fade">
+							  <div class="tutorial-container">
+								<div class="tutorial-card">
+								<center>
+								<!-- <div class="tutorial-imgico"> -->
+									<!-- <img src="https://img.icons8.com/material-outlined/96/FFFFFF/compare-git.png"/> -->
+								<!-- </div> -->
+									<!-- <h2 class="tutorial-h2-index">Easy Integration</h2> -->
+								<div class="tutorial-row">
+									<div class="tutorial-column">
+										<p class="tutorial-p-index">
+										<img src="images/3.png" style="height:400px; width:200px;" class="tutorial-1">
+										</p>
+									</div>
+									<div class="tutorial-column">
+										<p class="tutorial-p-text-index">
+										3. Click <b>Sign-up</b> to create an account.<br>
+										4. Click <b>Login</b> when you already have an account.
+										</p>
+									</div>
+								</div>
+							   </center>
+							  </div>
+							  </div>
+						  </div>
+
+						  <div class="tutorial-mySlides fade">
+							  <div class="tutorial-container">
+								<div class="tutorial-card">
+								<center>
+								<!-- <div class="tutorial-imgico"> -->
+									<!-- <img src="https://img.icons8.com/material-outlined/96/FFFFFF/compare-git.png"/> -->
+								<!-- </div> -->
+									<!-- <h2 class="tutorial-h2-index">Easy Integration</h2> -->
+								<div class="tutorial-row">
+									<div class="tutorial-column">
+										<p class="tutorial-p-index">
+										<img src="images/4.png" style="height:400px; width:200px;" class="tutorial-1">
+										</p>
+									</div>
+									<div class="tutorial-column">
+										<p class="tutorial-p-text-index">
+										 <b>Sign Up</b>
+										<br>
+										3.1 Enter your desire email address. Click "Get OTP" button.
+										</p>
+									</div>
+								</div>
+							   </center>
+							  </div>
+							  </div>
+						  </div>
+						  
+						  <div class="tutorial-mySlides fade">
+							  <div class="tutorial-container">
+								<div class="tutorial-card">
+								<center>
+								<!-- <div class="tutorial-imgico"> -->
+									<!-- <img src="https://img.icons8.com/material-outlined/96/FFFFFF/compare-git.png"/> -->
+								<!-- </div> -->
+									<!-- <h2 class="tutorial-h2-index">Easy Integration</h2> -->
+								<div class="tutorial-row">
+									<div class="tutorial-column">
+										<p class="tutorial-p-index">
+										<img src="images/6.png" style="height:400px; width:200px;" class="tutorial-1">
+										</p>
+									</div>
+									<div class="tutorial-column">
+										<p class="tutorial-p-text-index">
+										 <b>Sign Up (Notice)</b>
+										<br>
+										3.2 It will show after you click the "Get OTP" button. Click "Ok"
+										</p>
+									</div>
+								</div>
+							   </center>
+							  </div>
+							  </div>
+						  </div>
+						  
+						  <div class="tutorial-mySlides fade">
+							  <div class="tutorial-container">
+								<div class="tutorial-card">
+								<center>
+								<!-- <div class="tutorial-imgico"> -->
+									<!-- <img src="https://img.icons8.com/material-outlined/96/FFFFFF/compare-git.png"/> -->
+								<!-- </div> -->
+									<!-- <h2 class="tutorial-h2-index">Easy Integration</h2> -->
+								<div class="tutorial-row">
+									<div class="tutorial-column">
+										<p class="tutorial-p-index">
+										<img src="images/7.png" style="height:400px; width:200px;" class="tutorial-1">
+										</p>
+									</div>
+									<div class="tutorial-column">
+										<p class="tutorial-p-text-index">
+										<b>Sign Up (Confirmation)</b>
+										<br>
+											3.3 Check your gmail account and copy the OTP. 
+										</p>
+									</div>
+								</div>
+							   </center>
+							  </div>
+							  </div>
+						  </div>
+						  
+						  <div class="tutorial-mySlides fade">
+							  <div class="tutorial-container">
+								<div class="tutorial-card">
+								<center>
+								<!-- <div class="tutorial-imgico"> -->
+									<!-- <img src="https://img.icons8.com/material-outlined/96/FFFFFF/compare-git.png"/> -->
+								<!-- </div> -->
+									<!-- <h2 class="tutorial-h2-index">Easy Integration</h2> -->
+								<div class="tutorial-row">
+									<div class="tutorial-column">
+										<p class="tutorial-p-index">
+										<img src="images/5.png" style="height:400px; width:200px;" class="tutorial-1">
+										</p>
+									</div>
+									<div class="tutorial-column">
+										<p class="tutorial-p-text-index">
+										<b>Sign Up (Verification)</b>
+										<br>
+											3.4 To verify your email address,
+											just type the OTP that you received.
+											Remember, the OTP that valid for 60 seconds.
+										</p>
+									</div>
+								</div>
+							   </center>
+							  </div>
+							  </div>
+						  </div>	
+
+						  <div class="tutorial-mySlides fade">
+							  <div class="tutorial-container">
+								<div class="tutorial-card">
+								<center>
+								<!-- <div class="tutorial-imgico"> -->
+									<!-- <img src="https://img.icons8.com/material-outlined/96/FFFFFF/compare-git.png"/> -->
+								<!-- </div> -->
+									<!-- <h2 class="tutorial-h2-index">Easy Integration</h2> -->
+								<div class="tutorial-row">
+									<div class="tutorial-column">
+										<p class="tutorial-p-index">
+										<img src="images/8.png" style="height:400px; width:200px;" class="tutorial-1">
+										</p>
+									</div>
+									<div class="tutorial-column">
+										<p class="tutorial-p-text-index">
+										<b>Sign Up (Fiil-up)</b>
+										<br>
+											3.5 Input your desire username, password and retype password to confirm.
+										<br> 
+											3.6 Checking the Terms and Condition, and privacy policy means agreeing to companies policy.
+										<br>
+											3.7 Click "Sign Up" button.
+										</p>
+									</div>
+								</div>
+							   </center>
+							  </div>
+							  </div>
+						  </div>	
+
+						  <div class="tutorial-mySlides fade">
+							  <div class="tutorial-container">
+								<div class="tutorial-card">
+								<center>
+								<!-- <div class="tutorial-imgico"> -->
+									<!-- <img src="https://img.icons8.com/material-outlined/96/FFFFFF/compare-git.png"/> -->
+								<!-- </div> -->
+									<!-- <h2 class="tutorial-h2-index">Easy Integration</h2> -->
+								<div class="tutorial-row">
+									<div class="tutorial-column">
+										<p class="tutorial-p-index">
+										<img src="images/9.png" style="height:400px; width:200px;" class="tutorial-1">
+										</p>
+									</div>
+									<div class="tutorial-column">
+										<p class="tutorial-p-text-index">
+										<b>Login</b>
+										<br>
+											4.1 Enter registered email address and password.
+										</p>
+									</div>
+								</div>
+							   </center>
+							  </div>
+							  </div>
+						  </div>	
+
+
+
+						 <div class="tutorial-mySlides fade">
+							  <div class="tutorial-container">
+								<div class="tutorial-card">
+								<center>
+								<!-- <div class="tutorial-imgico"> -->
+									<!-- <img src="https://img.icons8.com/material-outlined/96/FFFFFF/compare-git.png"/> -->
+								<!-- </div> -->
+									<!-- <h2 class="tutorial-h2-index">Easy Integration</h2> -->
+								<div class="tutorial-row">
+									<div class="tutorial-column">
+										<p class="tutorial-p-index">
+										<img src="images/10.png" style="height:400px; width:200px;" class="tutorial-1">
+										</p>
+									</div>
+									<div class="tutorial-column">
+										<p class="tutorial-p-text-index">
+										<b>Home</b>  
+										<br>
+											5. Choose desire "Rooms" or click turn on/off button.
+										</p>
+									</div>
+								</div>
+							   </center>
+							  </div>
+							  </div>
+						  </div>
+						  
+						  <div class="tutorial-mySlides fade">
+							  <div class="tutorial-container">
+								<div class="tutorial-card">
+								<center>
+								<!-- <div class="tutorial-imgico"> -->
+									<!-- <img src="https://img.icons8.com/material-outlined/96/FFFFFF/compare-git.png"/> -->
+								<!-- </div> -->
+									<!-- <h2 class="tutorial-h2-index">Easy Integration</h2> -->
+								<div class="tutorial-row">
+									<div class="tutorial-column">
+										<p class="tutorial-p-index">
+										<img src="images/11.png" style="height:400px; width:200px;" class="tutorial-1">
+										</p>
+									</div>
+									<div class="tutorial-column">
+										<p class="tutorial-p-text-index">
+										<b>Selected Room</b>  
+										<br>
+											5.1 Choose desire "Devices" to control, click turn on/off button.
+										</p>
+									</div>
+								</div>
+							   </center>
+							  </div>
+							  </div>
+						  </div>
+						  
+						  <div class="tutorial-mySlides fade">
+							  <div class="tutorial-container">
+								<div class="tutorial-card">
+								<center>
+								<!-- <div class="tutorial-imgico"> -->
+									<!-- <img src="https://img.icons8.com/material-outlined/96/FFFFFF/compare-git.png"/> -->
+								<!-- </div> -->
+									<!-- <h2 class="tutorial-h2-index">Easy Integration</h2> -->
+								<div class="tutorial-row">
+									<div class="tutorial-column">
+										<p class="tutorial-p-index">
+										<img src="images/12.png" style="height:400px; width:200px;" class="tutorial-1">
+										</p>
+									</div>
+									<div class="tutorial-column">
+										<p class="tutorial-p-text-index">
+										<b>Schedule</b>
+										<br>
+											6.1 Select time <br>
+											6.2 Choose if you want it to turn on and off the lights or  open/close the window.<br>
+											6.3 Click "Activate now" to save the event. 
+										</p>
+									</div>
+								</div>
+							   </center>
+							  </div>
+							  </div>
+						  </div>
+						  
+						  <div class="tutorial-mySlides fade">
+							  <div class="tutorial-container">
+								<div class="tutorial-card">
+								<center>
+								<!-- <div class="tutorial-imgico"> -->
+									<!-- <img src="https://img.icons8.com/material-outlined/96/FFFFFF/compare-git.png"/> -->
+								<!-- </div> -->
+									<!-- <h2 class="tutorial-h2-index">Easy Integration</h2> -->
+								<div class="tutorial-row">
+									<div class="tutorial-column">
+										<p class="tutorial-p-index">
+										<img src="images/13.png" style="height:400px; width:200px;" class="tutorial-1">
+										</p>
+									</div>
+									<div class="tutorial-column">
+										<p class="tutorial-p-text-index">
+										<b>Notification</b>
+										<br>
+											7. The house owner/member can monitor their house via CCTV camera.  <br>
+											It can also notify and capture the face of every person who enter your house. <br>
+										</p>
+									</div>
+								</div>
+							   </center>
+							  </div>
+							  </div>
+						  </div>
+						  
+						  <div class="tutorial-mySlides fade">
+							  <div class="tutorial-container">
+								<div class="tutorial-card">
+								<center>
+								<!-- <div class="tutorial-imgico"> -->
+									<!-- <img src="https://img.icons8.com/material-outlined/96/FFFFFF/compare-git.png"/> -->
+								<!-- </div> -->
+									<!-- <h2 class="tutorial-h2-index">Easy Integration</h2> -->
+								<div class="tutorial-row">
+									<div class="tutorial-column">
+										<p class="tutorial-p-index">
+										<img src="images/14.png" style="height:400px; width:200px;" class="tutorial-1">
+										</p>
+									</div>
+									<div class="tutorial-column">
+										<p class="tutorial-p-text-index">
+										<b>Profile Settings</b>
+										<br>
+											8. Includes account, Security, About.
+										</p>
+									</div>
+								</div>
+							   </center>
+							  </div>
+							  </div>
+						  </div>
+						 
+												
+						
+						
+
+						
+						  
+						  <!-- <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a> -->
+						  <!-- <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>-->
+						  
+						</div>	
+						
+				</section>
+				<br>
+		</div>	
+	
+	
+		<!--  Sticky Navbar -->
+	<script type="text/javascript">
+		const body = document.querySelector("body");
+		const navbar = document.querySelector(".navbar");
+		const menu = document.querySelector(".menu-list");
+		const menuBtn = document.querySelector(".menu-btn");
+		const cancelBtn = document.querySelector(".cancel-btn");
+		menuBtn.onclick = ()=>{
+			menu.classList.add("active");
+			menuBtn.classList.add("hide");
+			body.classList.add("disabledScroll");
+		}
+		cancelBtn.onclick = ()=>{
+			menu.classList.remove("active");
+			menuBtn.classList.remove("hide");
+			body.classList.remove("disabledScroll");
+		}
+			window.onscroll = ()=>{
+			this.scrollY > 40 ? navbar.classList.add("") : navbar.classList.remove("");
+		} 
+</script> 
+
+	
+
+<!-- Myslide tutorials -->
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("tutorial-mySlides");
+		  var dots = document.getElementsByClassName("tutorial-dot");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			  dots[i].className = dots[i].className.replace(" tutorial-active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";
+		  dots[slideIndex-1].className += " tutorial-active";
+		}
+	</script>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+<script src="jsMarketing/firebaseConfig.js"></script>
+<script src="jsMarketing/welcomeUser.js"></script>
+
+
+</body>
+</html>
