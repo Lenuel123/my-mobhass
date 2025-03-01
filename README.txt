@@ -1,3 +1,1 @@
-IF YOU WANT TO VISIT OUR WEBSITE JUST CLICK OR PASTE THE LINK ON YOUR WEB BROWSER THANKS!
-
-https://mobhass.online
+📌 MoBHASS (Mobile Based Home Automation Security System)
